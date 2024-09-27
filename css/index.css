@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+body {
+    color: white;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    margin: 0;
+    background-color: #332621;
+}
+.button-head{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    float: center;
+}
+
+.header-navbar{
+    overflow: hidden;
+    background-color: #143D73;
+    font-family: "Comfortaa", sans-serif;
+    width: auto;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .header-navbar button:hover{
+    background-color: #3C56A6;
+  }
+
+  .gameinfo-container{
+    position: flex;
+    text-align: center;
+    color:white;
+    z-index: 0;
+  }
+  .text-over-img{
+    position: absolute;
+    color: white;
+    font-size: 70px;
+    font-family: Garamond;
+    bottom: 1px;
+    background-color: rgb(0, 0, 0, 0.7);
+  }
+  .gameplay-infos-container{
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr;
+    column-gap: 25px;
+    margin: 0;
+    background-color: rgb(0, 0, 0, 0.3);
+  }
+  .gameplay-img{
+    max-width: 100%;
+    max-height:100%;
+    opacity: 100%;
+  }
+  .gameinfo-container p{
+    float: right;
+    padding-left: 15px;
+    margin: 15px;
+    font-size: 30px;
+    padding-right: 50px;
+    line-break: 5px;
+  }
+  .hist-infos-container{
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr;
+    column-gap: 25px;
+    margin: 0;
+    background-color: rgb(0, 0, 0, 0.3);
+  }
+  .hist-img{
+    max-width: 100%;
+    max-height:100%;
+    opacity: 100%;
+  }
+  .hist-infos-container p{
+    float: right;
+    padding-left: 15px;
+    margin: 15px;
+    font-size: 30px;
+    padding-right: 50px;
+    line-break: 5px;
+  }
+  h2{
+    text-align: center;
+  }
+  .trailer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .buy-container{
+    position: flex;
+    text-align: center;
+    color:white;
+    z-index: 0;
+    background-color: rgb(0, 0, 0, 0.3);
+  }
+  .buytxt{
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    font-family: Garamond;
+    text-align: center;
+  }
+  .buy-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .buy-img{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    height: 100px;
+    background-color: white;
+    margin: 8px;
+  }
+  hr{
+    width: 200px;
+    height: 2px;
+    background-color: #143D73;
+    border-color: #143D73;
+    border-radius: 25px;
+  }
+  .dlc p{
+    text-align: center;
+    margin: 0 auto;
+  }
+  .dlc{
+    background-color: rgb(0, 0, 0, 0.3);
+  }
+  .dlc-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  table, th, td{
+    border: 2.5px solid #ffffff;
+    border-collapse: collapse;
+    border-style: solid;
+    size-adjust: flex;
+    text-align: center;
+    padding: 20px;
+    }
+    .tb-content{
+      width: 75%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  .tb-content{
+    background-color: 
+    rgb(0, 0, 0, 0.3);
+    color: rgb(255, 255, 255);
+  }
+  .tb-content td{
+    text-align: center;
+    padding: 20px;
+  }
+  footer{
+    background-color: #143D73;
+    text-align: center;
+    padding: 3px;
+    color: white;
+  }
+#form-user button{
+    background-color: #3C56A6;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 50%;
+    height: 20px;
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+#form-user span{
+    margin-bottom: 100px;
+}
+.input_error{
+    color: red;
+    font-style: italic;
+    display: none;
+}
+#form-user input{
+    width: 100%;
+    height: 20px;
+    border-radius: 3px;
+
+}
+.container-form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 500px;
+}
